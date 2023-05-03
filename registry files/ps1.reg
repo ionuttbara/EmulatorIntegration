@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SonyPlaystation1]
+@="SonyPlaystation1 ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SonyPlaystation1\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SonyPlaystation1\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SonyPlaystation1\shell\open]
+@="Emulate this SonyPlaystation1 ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SonyPlaystation1\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\pcsx_rearmed_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SonyPlaystation1]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SonyPlaystation1\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SonyPlaystation1\shell\open]
+@="Emulate this SonyPlaystation1 ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SonyPlaystation1\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\pcsx_rearmed_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ps1rom]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ps1rom\OpenWithList]
+"a"="Emulator2_SonyPlaystation1"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ps1rom\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.SonyPlaystation1"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ps1rom\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.SonyPlaystation1"
+
+[-HKEY_CLASSES_ROOT\.ps1rom]
+
+[HKEY_CLASSES_ROOT\.ps1rom]
+@="Gallery.Inc.Core.Emulator.SonyPlaystation1"
+
+[-HKEY_CURRENT_USER\Software\Classes\.ps1rom]
+
+[HKEY_CURRENT_USER\Software\Classes\.ps1rom]
+@="Gallery.Inc.Core.Emulator.SonyPlaystation1"

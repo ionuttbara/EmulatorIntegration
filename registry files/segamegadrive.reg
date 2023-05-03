@@ -1,0 +1,71 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaMegaDrive]
+@="Sega MegaDrive ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaMegaDrive\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaMegaDrive\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaMegaDrive\shell\open]
+@="Emulate this Sega MegaDrive ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaMegaDrive\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\picodrive_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaMegaDrive]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaMegaDrive\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaMegaDrive\shell\open]
+@="Emulate this Sega MegaDrive ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaMegaDrive\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\picodrive_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.smd]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.smd\OpenWithList]
+"a"="Emulator2_SegaMegaDrive"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.smd\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.SegaMegaDrive"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.smd\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.SegaMegaDrive"
+
+[-HKEY_CLASSES_ROOT\.smd]
+
+[HKEY_CLASSES_ROOT\.smd]
+@="Gallery.Inc.Core.Emulator.SegaMegaDrive"
+
+[-HKEY_CURRENT_USER\Software\Classes\.smd]
+
+[HKEY_CURRENT_USER\Software\Classes\.smd]
+@="Gallery.Inc.Core.Emulator.SegaMegaDrive"
+
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.megadrive]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.megadrive\OpenWithList]
+"a"="Emulator2_SegaMegaDrive"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.megadrive\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.SegaMegaDrive"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.megadrive\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.SegaMegaDrive"
+
+[-HKEY_CLASSES_ROOT\.megadrive]
+
+[HKEY_CLASSES_ROOT\.megadrive]
+@="Gallery.Inc.Core.Emulator.SegaMegaDrive"
+
+[-HKEY_CURRENT_USER\Software\Classes\.megadrive]
+
+[HKEY_CURRENT_USER\Software\Classes\.megadrive]
+@="Gallery.Inc.Core.Emulator.SegaMegaDrive"

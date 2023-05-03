@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Nintendo3DS]
+@="Nintendo3DS ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Nintendo3DS\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Nintendo3DS\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Nintendo3DS\shell\open]
+@="Emulate this Nintendo3DS ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Nintendo3DS\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\citra2018_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Nintendo3DS]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Nintendo3DS\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Nintendo3DS\shell\open]
+@="Emulate this Nintendo3DS ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Nintendo3DS\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\citra2018_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.3ds]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.3ds\OpenWithList]
+"a"="Emulator2_Nintendo3DS"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.3ds\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.Nintendo3DS"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.3ds\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.Nintendo3DS"
+
+[-HKEY_CLASSES_ROOT\.3ds]
+
+[HKEY_CLASSES_ROOT\.3ds]
+@="Gallery.Inc.Core.Emulator.Nintendo3DS"
+
+[-HKEY_CURRENT_USER\Software\Classes\.3ds]
+
+[HKEY_CURRENT_USER\Software\Classes\.3ds]
+@="Gallery.Inc.Core.Emulator.Nintendo3DS"
+

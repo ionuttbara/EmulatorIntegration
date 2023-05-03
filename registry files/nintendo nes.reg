@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoNES]
+@="NintendoNES ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoNES\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoNES\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoNES\shell\open]
+@="Emulate this NintendoNES ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoNES\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\quicknes_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoNES]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoNES\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoNES\shell\open]
+@="Emulate this NintendoNES ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoNES\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\quicknes_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nes]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nes\OpenWithList]
+"a"="Emulator2_NintendoNES"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nes\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.NintendoNES"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nes\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.NintendoNES"
+
+[-HKEY_CLASSES_ROOT\.nes]
+
+[HKEY_CLASSES_ROOT\.nes]
+@="Gallery.Inc.Core.Emulator.NintendoNES"
+
+[-HKEY_CURRENT_USER\Software\Classes\.nes]
+
+[HKEY_CURRENT_USER\Software\Classes\.nes]
+@="Gallery.Inc.Core.Emulator.NintendoNES"
+

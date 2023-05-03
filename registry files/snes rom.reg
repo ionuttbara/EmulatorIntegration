@@ -1,0 +1,71 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SNES]
+@="SNES ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SNES\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SNES\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SNES\shell\open]
+@="Emulate this SNES ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SNES\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\snes9x_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SNES]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SNES\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SNES\shell\open]
+@="Emulate this SNES ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SNES\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\snes9x_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.smc]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.smc\OpenWithList]
+"a"="Emulator2_SNES"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.smc\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.SNES"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.smc\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.SNES"
+
+[-HKEY_CLASSES_ROOT\.smc]
+
+[HKEY_CLASSES_ROOT\.smc]
+@="Gallery.Inc.Core.Emulator.SNES"
+
+[-HKEY_CURRENT_USER\Software\Classes\.smc]
+
+[HKEY_CURRENT_USER\Software\Classes\.smc]
+@="Gallery.Inc.Core.Emulator.SNES"
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.sfc]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.sfc\OpenWithList]
+"a"="Emulator2_SNES"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.sfc\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.SNES"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.sfc\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.SNES"
+
+[-HKEY_CLASSES_ROOT\.sfc]
+
+[HKEY_CLASSES_ROOT\.sfc]
+@="Gallery.Inc.Core.Emulator.SNES"
+
+[-HKEY_CURRENT_USER\Software\Classes\.sfc]
+
+[HKEY_CURRENT_USER\Software\Classes\.sfc]
+@="Gallery.Inc.Core.Emulator.SNES"
+

@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.PC-FX]
+@="PC-FX ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.PC-FX\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.PC-FX\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.PC-FX\shell\open]
+@="Emulate this PC-FX ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.PC-FX\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\mednafen_pcfx_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_PC-FX]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_PC-FX\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_PC-FX\shell\open]
+@="Emulate this PC-FX ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_PC-FX\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\mednafen_pcfx_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.PC-FX]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.PC-FX\OpenWithList]
+"a"="Emulator2_PC-FX"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.PC-FX\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.PC-FX"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.PC-FX\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.PC-FX"
+
+[-HKEY_CLASSES_ROOT\.PC-FX]
+
+[HKEY_CLASSES_ROOT\.PC-FX]
+@="Gallery.Inc.Core.Emulator.PC-FX"
+
+[-HKEY_CURRENT_USER\Software\Classes\.PC-FX]
+
+[HKEY_CURRENT_USER\Software\Classes\.PC-FX]
+@="Gallery.Inc.Core.Emulator.PC-FX"
+

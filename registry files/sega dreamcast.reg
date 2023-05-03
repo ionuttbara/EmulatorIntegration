@@ -1,0 +1,72 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaDreamcast]
+@="SegaDreamcast ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaDreamcast\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaDreamcast\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaDreamcast\shell\open]
+@="Emulate this SegaDreamcast ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaDreamcast\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\flycast_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaDreamcast]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaDreamcast\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaDreamcast\shell\open]
+@="Emulate this SegaDreamcast ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaDreamcast\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\flycast_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gdi]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gdi\OpenWithList]
+"a"="Emulator2_SegaDreamcast"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gdi\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.SegaDreamcast"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gdi\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.SegaDreamcast"
+
+[-HKEY_CLASSES_ROOT\.gdi]
+
+[HKEY_CLASSES_ROOT\.gdi]
+@="Gallery.Inc.Core.Emulator.SegaDreamcast"
+
+[-HKEY_CURRENT_USER\Software\Classes\.gdi]
+
+[HKEY_CURRENT_USER\Software\Classes\.gdi]
+@="Gallery.Inc.Core.Emulator.SegaDreamcast"
+
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.cdi]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.cdi\OpenWithList]
+"a"="Emulator2_SegaDreamcast"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.cdi\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.SegaDreamcast"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.cdi\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.SegaDreamcast"
+
+[-HKEY_CLASSES_ROOT\.cdi]
+
+[HKEY_CLASSES_ROOT\.cdi]
+@="Gallery.Inc.Core.Emulator.SegaDreamcast"
+
+[-HKEY_CURRENT_USER\Software\Classes\.cdi]
+
+[HKEY_CURRENT_USER\Software\Classes\.cdi]
+@="Gallery.Inc.Core.Emulator.SegaDreamcast"
+

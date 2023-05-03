@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.CapcomCPS1]
+@="CapcomCPS1 ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.CapcomCPS1\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.CapcomCPS1\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.CapcomCPS1\shell\open]
+@="Emulate this CapcomCPS1 ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.CapcomCPS1\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\fbalpha2012_cps1_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_CapcomCPS1]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_CapcomCPS1\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_CapcomCPS1\shell\open]
+@="Emulate this CapcomCPS1 ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_CapcomCPS1\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\fbalpha2012_cps1_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.cps1]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.cps1\OpenWithList]
+"a"="Emulator2_CapcomCPS1"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.cps1\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.CapcomCPS1"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.cps1\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.CapcomCPS1"
+
+[-HKEY_CLASSES_ROOT\.cps1]
+
+[HKEY_CLASSES_ROOT\.cps1]
+@="Gallery.Inc.Core.Emulator.CapcomCPS1"
+
+[-HKEY_CURRENT_USER\Software\Classes\.cps1]
+
+[HKEY_CURRENT_USER\Software\Classes\.cps1]
+@="Gallery.Inc.Core.Emulator.CapcomCPS1"
+

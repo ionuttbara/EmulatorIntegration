@@ -1,0 +1,72 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Nintendo64]
+@="Nintendo64 ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Nintendo64\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Nintendo64\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Nintendo64\shell\open]
+@="Emulate this Nintendo64 ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Nintendo64\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\parallel_n64_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Nintendo64]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Nintendo64\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Nintendo64\shell\open]
+@="Emulate this Nintendo64 ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Nintendo64\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\parallel_n64_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.n64]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.n64\OpenWithList]
+"a"="Emulator2_Nintendo64"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.n64\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.Nintendo64"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.n64\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.Nintendo64"
+
+[-HKEY_CLASSES_ROOT\.n64]
+
+[HKEY_CLASSES_ROOT\.n64]
+@="Gallery.Inc.Core.Emulator.Nintendo64"
+
+[-HKEY_CURRENT_USER\Software\Classes\.n64]
+
+[HKEY_CURRENT_USER\Software\Classes\.n64]
+@="Gallery.Inc.Core.Emulator.Nintendo64"
+
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.z64]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.z64\OpenWithList]
+"a"="Emulator2_Nintendo64"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.z64\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.Nintendo64"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.z64\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.Nintendo64"
+
+[-HKEY_CLASSES_ROOT\.z64]
+
+[HKEY_CLASSES_ROOT\.z64]
+@="Gallery.Inc.Core.Emulator.Nintendo64"
+
+[-HKEY_CURRENT_USER\Software\Classes\.z64]
+
+[HKEY_CURRENT_USER\Software\Classes\.z64]
+@="Gallery.Inc.Core.Emulator.Nintendo64"
+

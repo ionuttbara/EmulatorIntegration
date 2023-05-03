@@ -1,0 +1,71 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameCube]
+@="NintendoGameCube ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameCube\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameCube\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameCube\shell\open]
+@="Emulate this NintendoGameCube ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameCube\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\dolphin_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameCube]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameCube\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameCube\shell\open]
+@="Emulate this NintendoGameCube ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameCube\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\dolphin_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.rvz]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.rvz\OpenWithList]
+"a"="Emulator2_NintendoGameCube"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.rvz\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.NintendoGameCube"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.rvz\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.NintendoGameCube"
+
+[-HKEY_CLASSES_ROOT\.rvz]
+
+[HKEY_CLASSES_ROOT\.rvz]
+@="Gallery.Inc.Core.Emulator.NintendoGameCube"
+
+[-HKEY_CURRENT_USER\Software\Classes\.rvz]
+
+[HKEY_CURRENT_USER\Software\Classes\.rvz]
+@="Gallery.Inc.Core.Emulator.NintendoGameCube"
+
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gcz]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gcz\OpenWithList]
+"a"="Emulator2_NintendoGameCube"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gcz\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.NintendoGameCube"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gcz\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.NintendoGameCube"
+
+[-HKEY_CLASSES_ROOT\.gcz]
+
+[HKEY_CLASSES_ROOT\.gcz]
+@="Gallery.Inc.Core.Emulator.NintendoGameCube"
+
+[-HKEY_CURRENT_USER\Software\Classes\.gcz]
+
+[HKEY_CURRENT_USER\Software\Classes\.gcz]
+@="Gallery.Inc.Core.Emulator.NintendoGameCube"

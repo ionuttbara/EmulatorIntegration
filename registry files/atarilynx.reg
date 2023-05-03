@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.AtariLynx]
+@="AtariLynx ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.AtariLynx\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.AtariLynx\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.AtariLynx\shell\open]
+@="Emulate this AtariLynx ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.AtariLynx\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\handy_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_AtariLynx]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_AtariLynx\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_AtariLynx\shell\open]
+@="Emulate this AtariLynx ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_AtariLynx\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\handy_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.lnx]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.lnx\OpenWithList]
+"a"="Emulator2_AtariLynx"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.lnx\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.AtariLynx"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.lnx\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.AtariLynx"
+
+[-HKEY_CLASSES_ROOT\.lnx]
+
+[HKEY_CLASSES_ROOT\.lnx]
+@="Gallery.Inc.Core.Emulator.AtariLynx"
+
+[-HKEY_CURRENT_USER\Software\Classes\.lnx]
+
+[HKEY_CURRENT_USER\Software\Classes\.lnx]
+@="Gallery.Inc.Core.Emulator.AtariLynx"
+

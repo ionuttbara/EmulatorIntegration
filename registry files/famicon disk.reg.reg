@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.FamiconDiskSystem]
+@="FamiconDiskSystem ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.FamiconDiskSystem\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.FamiconDiskSystem\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.FamiconDiskSystem\shell\open]
+@="Emulate this FamiconDiskSystem ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.FamiconDiskSystem\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\nestopia_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_FamiconDiskSystem]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_FamiconDiskSystem\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_FamiconDiskSystem\shell\open]
+@="Emulate this FamiconDiskSystem ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_FamiconDiskSystem\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\nestopia_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.fds]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.fds\OpenWithList]
+"a"="Emulator2_FamiconDiskSystem"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.fds\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.FamiconDiskSystem"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.fds\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.FamiconDiskSystem"
+
+[-HKEY_CLASSES_ROOT\.fds]
+
+[HKEY_CLASSES_ROOT\.fds]
+@="Gallery.Inc.Core.Emulator.FamiconDiskSystem"
+
+[-HKEY_CURRENT_USER\Software\Classes\.fds]
+
+[HKEY_CURRENT_USER\Software\Classes\.fds]
+@="Gallery.Inc.Core.Emulator.FamiconDiskSystem"
+

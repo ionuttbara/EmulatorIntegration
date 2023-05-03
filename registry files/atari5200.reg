@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Atari5200]
+@="Atari5200 ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Atari5200\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Atari5200\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Atari5200\shell\open]
+@="Emulate this Atari5200 ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Atari5200\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\atari800_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Atari5200]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Atari5200\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Atari5200\shell\open]
+@="Emulate this Atari5200 ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Atari5200\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\atari800_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.a52]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.a52\OpenWithList]
+"a"="Emulator2_Atari5200"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.a52\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.Atari5200"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.a52\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.Atari5200"
+
+[-HKEY_CLASSES_ROOT\.a52]
+
+[HKEY_CLASSES_ROOT\.a52]
+@="Gallery.Inc.Core.Emulator.Atari5200"
+
+[-HKEY_CURRENT_USER\Software\Classes\.a52]
+
+[HKEY_CURRENT_USER\Software\Classes\.a52]
+@="Gallery.Inc.Core.Emulator.Atari5200"
+

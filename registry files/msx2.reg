@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.MSX2]
+@="MSX2 ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.MSX2\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.MSX2\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.MSX2\shell\open]
+@="Emulate this MSX2 ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.MSX2\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\fmsx_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_MSX2]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_MSX2\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_MSX2\shell\open]
+@="Emulate this MSX2 ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_MSX2\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\fmsx_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MSX2]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MSX2\OpenWithList]
+"a"="Emulator2_MSX2"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MSX2\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.MSX2"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MSX2\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.MSX2"
+
+[-HKEY_CLASSES_ROOT\.MSX2]
+
+[HKEY_CLASSES_ROOT\.MSX2]
+@="Gallery.Inc.Core.Emulator.MSX2"
+
+[-HKEY_CURRENT_USER\Software\Classes\.MSX2]
+
+[HKEY_CURRENT_USER\Software\Classes\.MSX2]
+@="Gallery.Inc.Core.Emulator.MSX2"
+

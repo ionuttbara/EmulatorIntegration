@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaGameGear]
+@="SegaGameGear ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaGameGear\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaGameGear\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaGameGear\shell\open]
+@="Emulate this SegaGameGear ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaGameGear\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\gearsystem_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaGameGear]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaGameGear\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaGameGear\shell\open]
+@="Emulate this SegaGameGear ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaGameGear\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\gearsystem_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gg]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gg\OpenWithList]
+"a"="Emulator2_SegaGameGear"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gg\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.SegaGameGear"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gg\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.SegaGameGear"
+
+[-HKEY_CLASSES_ROOT\.gg]
+
+[HKEY_CLASSES_ROOT\.gg]
+@="Gallery.Inc.Core.Emulator.SegaGameGear"
+
+[-HKEY_CURRENT_USER\Software\Classes\.gg]
+
+[HKEY_CURRENT_USER\Software\Classes\.gg]
+@="Gallery.Inc.Core.Emulator.SegaGameGear"

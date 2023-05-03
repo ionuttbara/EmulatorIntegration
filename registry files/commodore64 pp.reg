@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Commodore64PP]
+@="Commodore64PP ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Commodore64PP\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Commodore64PP\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Commodore64PP\shell\open]
+@="Emulate this Commodore64PP ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Commodore64PP\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\vice_x64_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Commodore64PP]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Commodore64PP\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Commodore64PP\shell\open]
+@="Emulate this Commodore64PP ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Commodore64PP\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\vice_x64_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nib]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nib\OpenWithList]
+"a"="Emulator2_Commodore64PP"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nib\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.Commodore64PP"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nib\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.Commodore64PP"
+
+[-HKEY_CLASSES_ROOT\.nib]
+
+[HKEY_CLASSES_ROOT\.nib]
+@="Gallery.Inc.Core.Emulator.Commodore64PP"
+
+[-HKEY_CURRENT_USER\Software\Classes\.nib]
+
+[HKEY_CURRENT_USER\Software\Classes\.nib]
+@="Gallery.Inc.Core.Emulator.Commodore64PP"
+

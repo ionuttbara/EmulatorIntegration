@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.CommodoreAmiga32]
+@="CommodoreAmiga32 ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.CommodoreAmiga32\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.CommodoreAmiga32\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.CommodoreAmiga32\shell\open]
+@="Emulate this CommodoreAmiga32 ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.CommodoreAmiga32\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\puae_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_CommodoreAmiga32]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_CommodoreAmiga32\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_CommodoreAmiga32\shell\open]
+@="Emulate this CommodoreAmiga32 ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_CommodoreAmiga32\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\puae_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.amiga32]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.amiga32\OpenWithList]
+"a"="Emulator2_CommodoreAmiga32"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.amiga32\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.CommodoreAmiga32"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.amiga32\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.CommodoreAmiga32"
+
+[-HKEY_CLASSES_ROOT\.amiga32]
+
+[HKEY_CLASSES_ROOT\.amiga32]
+@="Gallery.Inc.Core.Emulator.CommodoreAmiga32"
+
+[-HKEY_CURRENT_USER\Software\Classes\.amiga32]
+
+[HKEY_CURRENT_USER\Software\Classes\.amiga32]
+@="Gallery.Inc.Core.Emulator.CommodoreAmiga32"
+

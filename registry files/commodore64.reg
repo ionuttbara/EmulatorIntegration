@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Commodore64]
+@="Commodore64 ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Commodore64\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Commodore64\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Commodore64\shell\open]
+@="Emulate this Commodore64 ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Commodore64\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\vice_x64_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Commodore64]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Commodore64\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Commodore64\shell\open]
+@="Emulate this Commodore64 ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Commodore64\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\vice_x64_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.tap]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.tap\OpenWithList]
+"a"="Emulator2_Commodore64"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.tap\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.Commodore64"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.tap\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.Commodore64"
+
+[-HKEY_CLASSES_ROOT\.tap]
+
+[HKEY_CLASSES_ROOT\.tap]
+@="Gallery.Inc.Core.Emulator.Commodore64"
+
+[-HKEY_CURRENT_USER\Software\Classes\.tap]
+
+[HKEY_CURRENT_USER\Software\Classes\.tap]
+@="Gallery.Inc.Core.Emulator.Commodore64"
+

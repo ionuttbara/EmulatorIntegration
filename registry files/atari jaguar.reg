@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.AtariiJaguar]
+@="AtariiJaguar ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.AtariiJaguar\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.AtariiJaguar\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.AtariiJaguar\shell\open]
+@="Emulate this AtariiJaguar ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.AtariiJaguar\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\virtualjaguar_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_AtariiJaguar]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_AtariiJaguar\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_AtariiJaguar\shell\open]
+@="Emulate this AtariiJaguar ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_AtariiJaguar\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\virtualjaguar_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.j64]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.j64\OpenWithList]
+"a"="Emulator2_AtariiJaguar"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.j64\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.AtariiJaguar"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.j64\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.AtariiJaguar"
+
+[-HKEY_CLASSES_ROOT\.j64]
+
+[HKEY_CLASSES_ROOT\.j64]
+@="Gallery.Inc.Core.Emulator.AtariiJaguar"
+
+[-HKEY_CURRENT_USER\Software\Classes\.j64]
+
+[HKEY_CURRENT_USER\Software\Classes\.j64]
+@="Gallery.Inc.Core.Emulator.AtariiJaguar"

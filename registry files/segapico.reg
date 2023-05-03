@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaPico]
+@="Sega Pico ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaPico\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaPico\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaPico\shell\open]
+@="Emulate this Sega Pico ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.SegaPico\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\picodrive_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaPico]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaPico\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaPico\shell\open]
+@="Emulate this Sega Pico ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_SegaPico\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\picodrive_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.Pico]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.Pico\OpenWithList]
+"a"="Emulator2_SegaPico"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.Pico\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.SegaPico"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.Pico\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.SegaPico"
+
+[-HKEY_CLASSES_ROOT\.Pico]
+
+[HKEY_CLASSES_ROOT\.Pico]
+@="Gallery.Inc.Core.Emulator.SegaPico"
+
+[-HKEY_CURRENT_USER\Software\Classes\.Pico]
+
+[HKEY_CURRENT_USER\Software\Classes\.Pico]
+@="Gallery.Inc.Core.Emulator.SegaPico"

@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.ColeCovision]
+@="ColeCovision ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.ColeCovision\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.ColeCovision\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.ColeCovision\shell\open]
+@="Emulate this ColeCovision ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.ColeCovision\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\gearcoleco_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_ColeCovision]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_ColeCovision\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_ColeCovision\shell\open]
+@="Emulate this ColeCovision ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_ColeCovision\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\gearcoleco_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.col]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.col\OpenWithList]
+"a"="Emulator2_ColeCovision"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.col\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.ColeCovision"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.col\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.ColeCovision"
+
+[-HKEY_CLASSES_ROOT\.col]
+
+[HKEY_CLASSES_ROOT\.col]
+@="Gallery.Inc.Core.Emulator.ColeCovision"
+
+[-HKEY_CURRENT_USER\Software\Classes\.col]
+
+[HKEY_CURRENT_USER\Software\Classes\.col]
+@="Gallery.Inc.Core.Emulator.ColeCovision"
+

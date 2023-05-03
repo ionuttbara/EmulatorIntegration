@@ -1,0 +1,50 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Atari2600]
+@="Atari2600 ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Atari2600\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Atari2600\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Atari2600\shell\open]
+@="Emulate this Atari2600 ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Atari2600\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\stella_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Atari2600]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Atari2600\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Atari2600\shell\open]
+@="Emulate this Atari2600 ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Atari2600\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\stella_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.a26]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.a26\OpenWithList]
+"a"="Emulator2_Atari2600"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.a26\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.Atari2600"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.a26\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.Atari2600"
+
+[-HKEY_CLASSES_ROOT\.a26]
+
+[HKEY_CLASSES_ROOT\.a26]
+@="Gallery.Inc.Core.Emulator.Atari2600"
+
+[-HKEY_CURRENT_USER\Software\Classes\.a26]
+
+[HKEY_CURRENT_USER\Software\Classes\.a26]
+@="Gallery.Inc.Core.Emulator.Atari2600"
+
+

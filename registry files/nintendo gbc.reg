@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameBoyColor]
+@="NintendoGameBoyColor ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameBoyColor\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameBoyColor\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameBoyColor\shell\open]
+@="Emulate this NintendoGameBoyColor ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameBoyColor\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\mgba_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameBoyColor]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameBoyColor\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameBoyColor\shell\open]
+@="Emulate this NintendoGameBoyColor ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameBoyColor\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\mgba_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gbc]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gbc\OpenWithList]
+"a"="Emulator2_NintendoGameBoyColor"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gbc\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.NintendoGameBoyColor"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.gbc\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.NintendoGameBoyColor"
+
+[-HKEY_CLASSES_ROOT\.gbc]
+
+[HKEY_CLASSES_ROOT\.gbc]
+@="Gallery.Inc.Core.Emulator.NintendoGameBoyColor"
+
+[-HKEY_CURRENT_USER\Software\Classes\.gbc]
+
+[HKEY_CURRENT_USER\Software\Classes\.gbc]
+@="Gallery.Inc.Core.Emulator.NintendoGameBoyColor"
+

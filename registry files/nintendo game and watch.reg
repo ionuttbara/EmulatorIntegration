@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameWatch]
+@="NintendoGameWatch ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameWatch\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameWatch\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameWatch\shell\open]
+@="Emulate this NintendoGameWatch ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.NintendoGameWatch\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\gw_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameWatch]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameWatch\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameWatch\shell\open]
+@="Emulate this NintendoGameWatch ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_NintendoGameWatch\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\gw_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mgw]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mgw\OpenWithList]
+"a"="Emulator2_NintendoGameWatch"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mgw\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.NintendoGameWatch"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mgw\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.NintendoGameWatch"
+
+[-HKEY_CLASSES_ROOT\.mgw]
+
+[HKEY_CLASSES_ROOT\.mgw]
+@="Gallery.Inc.Core.Emulator.NintendoGameWatch"
+
+[-HKEY_CURRENT_USER\Software\Classes\.mgw]
+
+[HKEY_CURRENT_USER\Software\Classes\.mgw]
+@="Gallery.Inc.Core.Emulator.NintendoGameWatch"
+

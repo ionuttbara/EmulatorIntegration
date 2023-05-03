@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.MAME]
+@="MAME ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.MAME\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.MAME\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.MAME\shell\open]
+@="Emulate this MAME ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.MAME\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\mame_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_MAME]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_MAME\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_MAME\shell\open]
+@="Emulate this MAME ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_MAME\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\mame_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mame]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mame\OpenWithList]
+"a"="Emulator2_MAME"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mame\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.MAME"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mame\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.MAME"
+
+[-HKEY_CLASSES_ROOT\.mame]
+
+[HKEY_CLASSES_ROOT\.mame]
+@="Gallery.Inc.Core.Emulator.MAME"
+
+[-HKEY_CURRENT_USER\Software\Classes\.mame]
+
+[HKEY_CURRENT_USER\Software\Classes\.mame]
+@="Gallery.Inc.Core.Emulator.MAME"
+

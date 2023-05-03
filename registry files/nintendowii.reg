@@ -1,0 +1,70 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Wii]
+@="Wii ROM File"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Wii\DefaultIcon]
+@="F:\\[Repo] Emulator\\Software\\GalleryInc.Core.Emulator\\romfile.ico"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Wii\shell]
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Wii\shell\open]
+@="Emulate this Wii ROM"
+
+[HKEY_CLASSES_ROOT\Gallery.Inc.Core.Emulator.Wii\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\dolphin_libretro.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Wii]
+"FriendlyAppName"="Emulator (uses D2G SDK)"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Wii\shell]
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Wii\shell\open]
+@="Emulate this Wii ROM"
+
+[HKEY_CLASSES_ROOT\Applications\Emulator2_Wii\shell\open\command]
+@="\"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\Emulator.exe\" -L \"F:\\\\[Repo] Emulator\\\\Software\\\\GalleryInc.Core.Emulator\\\\cores\\\\dolphin_libretro.dll\" \"%1\""
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.wdf]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.wdf\OpenWithList]
+"a"="Emulator2_Wii"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.wdf\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.Wii"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.wdf\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.Wii"
+
+[-HKEY_CLASSES_ROOT\.wdf]
+f
+[HKEY_CLASSES_ROOT\.wdf]
+@="Gallery.Inc.Core.Emulator.Wii"
+
+[-HKEY_CURRENT_USER\Software\Classes\.wdf]
+
+[HKEY_CURRENT_USER\Software\Classes\.wdf]
+@="Gallery.Inc.Core.Emulator.Wii"
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.wbfs]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.wbfs\OpenWithList]
+"a"="Emulator2_Wii"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.wbfs\OpenWithProgids]
+"Gallery.Inc.Core.Emulator.Wii"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.wbfs\UserChoice]
+"ProgId"="Gallery.Inc.Core.Emulator.Wii"
+
+[-HKEY_CLASSES_ROOT\.wbfs]
+
+[HKEY_CLASSES_ROOT\.wbfs]
+@="Gallery.Inc.Core.Emulator.Wii"
+
+[-HKEY_CURRENT_USER\Software\Classes\.wbfs]
+
+[HKEY_CURRENT_USER\Software\Classes\.wbfs]
+@="Gallery.Inc.Core.Emulator.Wii"
