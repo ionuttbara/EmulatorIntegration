@@ -1,0 +1,34 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.smc] 
+"(Default)"="SNES"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.smc\OpenWithList] 
+"a"="F:\Emulator\Software\GalleryInc.Core.Emulator\Emulator.exe" -L "F:\Emulator\Software\GalleryInc.Core.Emulator\snes9x_libretro.dll" "%1""
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.sfc] 
+"(Default)"="SNES"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.sfc\OpenWithList] 
+"a"="F:\Emulator\Software\GalleryInc.Core.Emulator\Emulator.exe" -L "F:\Emulator\Software\GalleryInc.Core.Emulator\snes9x_libretro.dll" "%1""
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\SNES] 
+@="Super Nintendo Entertainment System ROM File"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\SNES\shell\open] 
+@="Emulate this Super Nintendo ROM"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\SNES\shell\open\command] 
+@="F:\Emulator\Software\GalleryInc.Core.Emulator\Emulator.exe" -L "F:\Emulator\Software\GalleryInc.Core.Emulator\snes9x_libretro.dll" "%1""
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.sfc\OpenWithProgids] 
+"SNES"=hex(0):
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.smc\OpenWithProgids] 
+"SNES"=hex(0):
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ApplicationAssociationToasts] 
+"SNES_.smc"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ApplicationAssociationToasts] 
+"SNES_.sfc"=dword:00000000
